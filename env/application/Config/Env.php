@@ -8,7 +8,7 @@ class Env
   function __construct($dotEnv){
     $this->dotEnv = $dotEnv;
   }
-  // read from .env
+  // read from .env 
   function dotEnv($dotEnv){
     if (file_exists('.env')) {
       $fileDotEnv = explode("\n", file_get_contents('.env', true));
