@@ -1,6 +1,6 @@
 <?php
 // sample Directory
-if (!defined('/env')) {
+if (!defined('env')) {
   die('403');
 }
 class Env
